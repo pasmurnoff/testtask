@@ -1,0 +1,53 @@
+.banner{
+height:70px;
+background: #ededed;
+margin-bottom: 20px;
+}
+
+.form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.feedbackform{
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+	}
+.brand{
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.input{
+	margin-bottom: 10px;
+}
+
+.dual-1{
+	width: 49.5%;
+	float: left;
+}
+
+.dual-2{
+	width: 49.5%;
+	float: right;
+}
+@media (min-width: 200px) and (max-width: 800px) {
+.dual-1{
+	width: 100%;
+}
+
+.dual-2{
+	width: 100%;
+}
+}
+.send{
+
+}
